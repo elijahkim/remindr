@@ -1,0 +1,6 @@
+<div class="reminder">
+<p><%= reminder.content %>
+<%= reminder.remind_at %></p>
+
+<%= button_to "delete", reminder_path(reminder), method: :delete %>
+</div>

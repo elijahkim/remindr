@@ -1,0 +1,12 @@
+<h1>Your Reminders</h1>
+
+<%= render @reminders %>
+
+<%= form_for @new_reminder do |f| %>
+  <%= f.label :content %>
+  <%= f.text_field :content %>
+
+  <input class="datetimepicker" type="text" name="reminder[remind_at]" >
+
+  <%= f.submit %>
+<% end %>
