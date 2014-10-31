@@ -1,8 +1,10 @@
 source 'https://rubygems.org'
 
 gem 'rails', '4.1.6'
+gem 'dotenv-rails', :groups => [:development, :test]
 
 gem 'coffee-rails', '~> 4.0.0'
+gem 'pusher'
 gem 'jbuilder', '~> 2.0'
 gem 'jquery-datetimepicker-rails'
 gem 'jquery-rails'
